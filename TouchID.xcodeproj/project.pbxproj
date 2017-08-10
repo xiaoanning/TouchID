@@ -13,6 +13,7 @@
 		4D745EFA1EF7BEB300A96ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D745EF81EF7BEB300A96ED9 /* Main.storyboard */; };
 		4D745EFC1EF7BEB300A96ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D745EFB1EF7BEB300A96ED9 /* Assets.xcassets */; };
 		4D745EFF1EF7BEB300A96ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D745EFD1EF7BEB300A96ED9 /* LaunchScreen.storyboard */; };
+		4D745F091EF7C89F00A96ED9 /* HZBTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D745F081EF7C89E00A96ED9 /* HZBTouchID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4D745EFB1EF7BEB300A96ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D745EFE1EF7BEB300A96ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D745F001EF7BEB300A96ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D745F071EF7C89E00A96ED9 /* HZBTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBTouchID.h; sourceTree = "<group>"; };
+		4D745F081EF7C89E00A96ED9 /* HZBTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBTouchID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4D745EEE1EF7BEB300A96ED9 /* TouchID */ = {
 			isa = PBXGroup;
 			children = (
+				4D745F061EF7C88700A96ED9 /* TouchID */,
 				4D745EF21EF7BEB300A96ED9 /* AppDelegate.h */,
 				4D745EF31EF7BEB300A96ED9 /* AppDelegate.m */,
 				4D745EF51EF7BEB300A96ED9 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				4D745EF01EF7BEB300A96ED9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D745F061EF7C88700A96ED9 /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				4D745F071EF7C89E00A96ED9 /* HZBTouchID.h */,
+				4D745F081EF7C89E00A96ED9 /* HZBTouchID.m */,
+			);
+			path = TouchID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +123,7 @@
 				TargetAttributes = {
 					4D745EEB1EF7BEB300A96ED9 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8429SBRZW5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,6 +167,7 @@
 				4D745EF71EF7BEB300A96ED9 /* ViewController.m in Sources */,
 				4D745EF41EF7BEB300A96ED9 /* AppDelegate.m in Sources */,
 				4D745EF11EF7BEB300A96ED9 /* main.m in Sources */,
+				4D745F091EF7C89F00A96ED9 /* HZBTouchID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8429SBRZW5;
 				INFOPLIST_FILE = TouchID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anning.TouchID;
@@ -283,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8429SBRZW5;
 				INFOPLIST_FILE = TouchID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anning.TouchID;
